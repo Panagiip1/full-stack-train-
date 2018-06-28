@@ -1,0 +1,37 @@
+[
+{
+	"_id" : 1,
+	"Title" : "My first post",
+	"Content" : "Some content",
+	"Comments" : [
+	{
+		"CommentId" : 1,
+		"Content" : "Commenting on your first post"
+	 }
+	],
+	"author" : {
+		"Id" : 1,
+		"DisplayName" : "Panagiotis Papoulidis"
+	}
+},
+{
+	"PostId" : 2,
+	"Title" : "My second post",
+	"Content" : "Some content",
+	"Comments" : [
+	{
+		"CommentId" : 2,
+		"Content" : "Commenting on your first post"
+	 },
+	{
+		"CommentId" : 3,
+		"Content" : "Commenting on your first post"
+	}
+	]
+   },
+	{
+		"PostId" : 3,
+		"Title" : "My third post",
+		"Content" : "Some content"
+	}
+]
